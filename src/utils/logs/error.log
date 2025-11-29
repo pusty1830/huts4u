@@ -1,0 +1,388 @@
+2024-11-19 19:28:14 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.reds.redis-cloud.com
+2024-11-19 19:33:44 [ERROR]: Error connecting to Redis: 982C0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:355:
+
+2024-11-19 20:22:21 [ERROR]: cryptoJS.randomInt is not a function
+2024-11-19 20:32:29 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-11-19 20:33:34 [ERROR]: Error connecting to Redis: Connection timeout
+2024-11-19 20:35:31 [ERROR]: notNull Violation: user.userName cannot be null,
+notNull Violation: user.password cannot be null,
+notNull Violation: user.phoneNumber cannot be null
+2024-11-19 20:38:25 [ERROR]: notNull Violation: user.userName cannot be null
+2024-11-19 20:38:52 [ERROR]: Assignment to constant variable.
+2024-11-19 20:39:02 [ERROR]: Assignment to constant variable.
+2024-11-19 21:36:37 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-11-19 22:35:34 [ERROR]: string violation: password cannot be an array or an object
+2024-11-19 22:40:33 [ERROR]: Invalid argument type
+2024-11-19 22:43:03 [ERROR]: redisClient.setex is not a function
+2024-11-19 23:04:38 [ERROR]: Cannot access 'data' before initialization
+2024-11-19 23:06:48 [ERROR]: Cannot access 'data' before initialization
+2024-11-19 23:28:09 [ERROR]: C:\Users\amita\Desktop\LMS-AP\server\src\views\emailTamplet.ejs:81
+    79| 
+    80|       <!-- Optional Action Button (like a "Verify Email" button) -->
+ >> 81|       <a href="<%= actionUrl %>" class="button">Take Action</a>
+    82|     </div>
+    83| 
+    84|     <!-- Footer Section -->
+
+actionUrl is not defined
+2024-11-19 23:28:45 [ERROR]: C:\Users\amita\Desktop\LMS-AP\server\src\views\emailTamplet.ejs:81
+    79| 
+    80|       <!-- Optional Action Button (like a "Verify Email" button) -->
+ >> 81|       <a href="<%= actionUrl %>" class="button">Take Action</a>
+    82|     </div>
+    83| 
+    84|     <!-- Footer Section -->
+
+actionUrl is not defined
+2024-11-19 23:29:02 [ERROR]: C:\Users\amita\Desktop\LMS-AP\server\src\views\emailTamplet.ejs:81
+    79| 
+    80|       <!-- Optional Action Button (like a "Verify Email" button) -->
+ >> 81|       <!-- <a href="<%= actionUrl %>" sclass="button">Take Action</a> -->
+    82|     </div>
+    83| 
+    84|     <!-- Footer Section -->
+
+actionUrl is not defined
+2024-11-20 08:27:19 [ERROR]: Illegal arguments: string, undefined
+2024-11-20 08:30:35 [ERROR]: CurrentPassword is incorrect 
+2024-11-20 08:30:35 [ERROR]: httpResponseCodes is not defined
+2024-11-20 08:31:08 [ERROR]: CurrentPassword is incorrect 
+2024-11-20 08:51:58 [ERROR]: Cannot read properties of undefined (reading 'id')
+2024-11-20 11:46:24 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-04 12:31:04 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-04 18:38:24 [ERROR]: Unhandled Rejection: ReferenceError: async is not defined
+2024-12-04 18:58:41 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: SidebarMenu.to cannot be null,
+notNull Violation: SidebarMenu.title cannot be null
+2024-12-04 19:41:24 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-05 06:31:01 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-05 10:44:21 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-08 00:13:09 [ERROR]: Error Connecting to Database
+2024-12-08 00:17:25 [ERROR]: Error Connecting to Database
+2024-12-08 00:19:43 [ERROR]: Error Connecting to Database
+2024-12-08 00:20:15 [ERROR]: Error Connecting to Database Access denied for user 'admin'@'103.182.10.185' (using password: YES)
+2024-12-12 15:49:26 [ERROR]: Invalid argument type
+2024-12-12 17:55:44 [ERROR]: CurrentPassword is incorrect 
+2024-12-12 17:55:51 [ERROR]: CurrentPassword is incorrect 
+2024-12-12 17:58:52 [ERROR]: Cannot read properties of undefined (reading 'id')
+2024-12-12 17:58:52 [ERROR]: Cannot read properties of undefined (reading 'id')
+2024-12-12 17:59:04 [ERROR]: Cannot read properties of undefined (reading 'id')
+2024-12-12 17:59:04 [ERROR]: Cannot read properties of undefined (reading 'id')
+2024-12-13 11:40:59 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-13 13:05:15 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-13 18:04:39 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-13 22:05:31 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-13 22:32:38 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-14 12:37:56 [ERROR]: Uncaught Exception: file is not defined
+2024-12-14 12:40:29 [ERROR]: Uncaught Exception: file is not defined
+2024-12-14 17:49:18 [ERROR]: CurrentPassword is incorrect 
+2024-12-14 18:04:15 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: Video.preview_url cannot be null,
+notNull Violation: Video.video_url cannot be null
+2024-12-14 18:05:47 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: Video.preview_url cannot be null,
+notNull Violation: Video.video_url cannot be null
+2024-12-14 18:32:33 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-20 15:21:44 [ERROR]: Error Syncing Database: Key column 'userName' doesn't exist in table
+2024-12-20 15:25:39 [ERROR]: Error Syncing Database: Key column 'userName' doesn't exist in table
+2024-12-20 15:26:37 [ERROR]: Error Connecting to Database Unknown database 'livabhiproductions'
+2024-12-20 15:28:32 [ERROR]: Error Connecting to Database Unknown database 'livabhiproductions'
+2024-12-20 15:29:18 [ERROR]: Error Syncing Database: Key column 'userName' doesn't exist in table
+2024-12-20 15:29:44 [ERROR]: Error Syncing Database: Key column 'firseName' doesn't exist in table
+2024-12-20 16:00:39 [ERROR]: Invalid argument type
+2024-12-20 16:02:41 [ERROR]: Invalid argument type
+2024-12-20 17:18:37 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-20 17:49:56 [ERROR]: Error Syncing Database: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2024-12-20 17:51:11 [ERROR]: Error Syncing Database: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2024-12-20 18:02:55 [ERROR]: Error Syncing Database: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2024-12-20 18:43:24 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: portfolioProject.title cannot be null
+2024-12-22 12:41:13 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-22 12:43:46 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: portfolioProject.title cannot be null
+2024-12-22 12:43:58 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-22 12:46:32 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-22 12:50:16 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-22 15:15:12 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-23 15:54:42 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-23 15:54:55 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-23 16:15:49 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-23 17:39:25 [ERROR]: Internal server error:SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`livabhiproductions`.`portfolio`, CONSTRAINT `portfolio_userId_foreign_idx` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))
+2024-12-23 17:45:52 [ERROR]: result is not defined
+2024-12-23 18:13:51 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-23 20:30:28 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:30:32 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:34:26 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:35:36 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:39:40 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:40:46 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:42:25 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:48:27 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'email' in 'field list'
+2024-12-23 22:43:09 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-24 19:28:06 [ERROR]: CurrentPassword is incorrect 
+2024-12-24 19:28:16 [ERROR]: CurrentPassword is incorrect 
+2024-12-24 19:44:16 [ERROR]: Internal server error:ReferenceError: nul is not defined
+2024-12-25 00:37:32 [ERROR]: Error Syncing Database: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[] NOT NULL, `salary` VARCHAR(255) NOT NULL, `contactEmail` VARCHAR(255) NOT NUL' at line 1
+2024-12-25 00:38:24 [ERROR]: Error Syncing Database: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[] NOT NULL, `salary` VARCHAR(255) NOT NULL, `contactEmail` VARCHAR(255) NOT NUL' at line 1
+2024-12-25 00:57:27 [ERROR]: CurrentPassword is incorrect 
+2024-12-25 01:03:53 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-25 19:55:17 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-26 11:12:30 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect integer value: '' for column 'portfolioId' at row 1
+2024-12-26 11:12:30 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect integer value: '' for column 'portfolioId' at row 1
+2024-12-26 11:12:30 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect integer value: '' for column 'portfolioId' at row 1
+2024-12-26 11:52:56 [ERROR]: CurrentPassword is incorrect 
+2024-12-26 12:26:03 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-26 12:47:54 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-26 13:00:36 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-26 13:01:33 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-26 13:10:37 [ERROR]: Illegal arguments: undefined, string
+2024-12-26 13:10:39 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-26 16:35:03 [ERROR]: Illegal arguments: undefined, string
+2024-12-26 16:39:27 [ERROR]: Illegal arguments: undefined, string
+2024-12-26 16:41:02 [ERROR]: Illegal arguments: undefined, string
+2024-12-26 16:47:29 [ERROR]: Illegal arguments: undefined, string
+2024-12-26 17:14:49 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2024-12-26 17:16:16 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2024-12-26 17:16:21 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2024-12-26 17:48:03 [ERROR]: Error Syncing Database: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2024-12-26 17:51:43 [ERROR]: Error Syncing Database: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2024-12-26 18:04:04 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-26 18:05:13 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-26 18:05:35 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-26 18:05:52 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-26 18:05:55 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-27 05:37:50 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-27 05:58:15 [ERROR]: Internal server error:SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`livabhi`.`course`, CONSTRAINT `course_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))
+2024-12-27 07:13:23 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-27 11:35:24 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-27 11:43:19 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-27 11:45:03 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-27 12:03:20 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-27 12:03:31 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-29 05:20:14 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-29 05:59:45 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-29 06:22:10 [ERROR]: Unhandled Rejection: TypeError: razorpay.Razorpay is not a constructor
+2024-12-29 06:22:10 [ERROR]: Unhandled Rejection: TypeError: razorpay.Razorpay is not a constructor
+2024-12-29 06:22:26 [ERROR]: Unhandled Rejection: TypeError: razorpay.Razorpay is not a constructor
+2024-12-29 06:22:26 [ERROR]: Unhandled Rejection: TypeError: razorpay.Razorpay is not a constructor
+2024-12-29 06:23:12 [ERROR]: Unhandled Rejection: TypeError: razorpay.Razorpay is not a constructor
+2024-12-29 06:23:12 [ERROR]: Unhandled Rejection: TypeError: razorpay.Razorpay is not a constructor
+2024-12-29 06:44:42 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-29 18:25:36 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-29 20:26:21 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-29 20:27:06 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-29 20:34:38 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-29 20:35:10 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-29 20:49:49 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-29 21:11:18 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-29 21:53:14 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: payment.id cannot be null,
+notNull Violation: payment.amount cannot be null
+2024-12-29 21:56:51 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: payment.id cannot be null,
+notNull Violation: payment.amount cannot be null
+2024-12-29 22:02:01 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: payment.id cannot be null
+2024-12-29 22:05:18 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: payment.id cannot be null
+2024-12-29 22:07:41 [ERROR]: Internal server error:SequelizeDatabaseError: Field 'id' doesn't have a default value
+2024-12-29 22:10:16 [ERROR]: Internal server error:SequelizeDatabaseError: Field 'id' doesn't have a default value
+2024-12-30 15:29:31 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-30 15:49:37 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-30 15:50:53 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-30 15:51:45 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-30 17:53:43 [ERROR]: Internal server error:SequelizeUniqueConstraintError: Validation error
+2024-12-30 17:55:18 [ERROR]: Internal server error:SequelizeUniqueConstraintError: Validation error
+2024-12-30 18:16:52 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-30 21:26:39 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-30 21:48:49 [ERROR]: Internal server error:SequelizeEagerLoadingError: Video is not associated to course!
+2024-12-30 21:51:46 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2024-12-30 21:52:29 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2024-12-30 21:52:36 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2024-12-30 21:52:45 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-31 04:30:41 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-31 05:01:18 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-31 05:22:12 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-31 05:27:59 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-31 05:29:08 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-31 05:52:27 [ERROR]: Account not found
+2024-12-31 05:52:34 [ERROR]: Account not found
+2024-12-31 05:52:35 [ERROR]: Account not found
+2024-12-31 05:52:35 [ERROR]: Account not found
+2024-12-31 05:52:35 [ERROR]: Account not found
+2024-12-31 05:52:35 [ERROR]: Account not found
+2024-12-31 05:53:34 [ERROR]: Account not found
+2024-12-31 05:54:43 [ERROR]: Account not found
+2024-12-31 05:55:09 [ERROR]: Account not found
+2024-12-31 05:55:55 [ERROR]: Account not found
+2024-12-31 06:33:56 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect integer value: 'test' for column 'name' at row 1
+2024-12-31 06:33:58 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect integer value: 'test' for column 'name' at row 1
+2024-12-31 06:35:43 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect integer value: 'test' for column 'name' at row 1
+2024-12-31 16:17:32 [ERROR]: CurrentPassword is incorrect 
+2024-12-31 16:28:12 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: Portfolio.lastName cannot be null
+2025-01-01 12:04:04 [ERROR]: Error Connecting to Database sequilize.then is not a function
+2025-01-01 13:31:03 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-01 14:57:24 [ERROR]: Error Connecting to Database sequilize.then is not a function
+2025-01-01 15:07:59 [ERROR]: Error connecting to Redis: Connection timeout
+2025-01-01 15:08:05 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-01-01 20:35:51 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 08:00:26 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-04 09:18:29 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 09:52:17 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 11:24:30 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 12:31:26 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 12:53:39 [ERROR]: Internal server error:ReferenceError: DELETE is not defined
+2025-01-04 12:53:49 [ERROR]: Internal server error:ReferenceError: DELETE is not defined
+2025-01-04 13:03:30 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'destroy')
+2025-01-04 13:03:39 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'destroy')
+2025-01-04 13:26:15 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 17:20:56 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 17:24:01 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-05 20:12:38 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-09 07:24:46 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:32:45 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:42:46 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:56:24 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:57:44 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 08:29:04 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-09 09:55:34 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-09 16:45:58 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: course.discount cannot be null
+2025-01-09 16:46:06 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: course.discount cannot be null
+2025-01-09 16:50:33 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-09 16:50:37 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-09 16:50:47 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-09 18:02:49 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 17:53:30 [ERROR]: CurrentPassword is incorrect 
+2025-01-10 17:54:13 [ERROR]: CurrentPassword is incorrect 
+2025-01-10 17:54:52 [ERROR]: CurrentPassword is incorrect 
+2025-01-10 17:56:59 [ERROR]: Account not found
+2025-01-10 18:06:34 [ERROR]: Account not found
+2025-01-10 18:06:47 [ERROR]: Account not found
+2025-01-10 18:25:09 [ERROR]: Account not found
+2025-01-10 18:25:16 [ERROR]: Account not found
+2025-01-10 18:25:30 [ERROR]: Account not found
+2025-01-10 21:18:48 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 21:30:16 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 21:37:49 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 22:50:16 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-13 16:13:28 [ERROR]: Internal server error:TypeError: model[tableName].create is not a function
+2025-01-13 16:14:14 [ERROR]: Internal server error:TypeError: model[tableName].create is not a function
+2025-01-13 16:16:39 [ERROR]: Internal server error:TypeError: model[tableName].create is not a function
+2025-01-13 16:35:03 [ERROR]: Error Syncing Database: Cannot change column 'jobId': used in a foreign key constraint 'job_applications_ibfk_1'
+2025-01-13 16:37:29 [ERROR]: Error Syncing Database: Duplicate column name 'jobID'
+2025-01-13 16:40:47 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2025-01-13 16:42:05 [ERROR]: Error Syncing Database: Constraint job_applications_ibfk_1 on table job_applications does not exist
+2025-01-13 16:44:32 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:44:32 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:45:58 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:45:58 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:46:30 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:46:30 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:48:00 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2025-01-13 16:50:09 [ERROR]: CurrentPassword is incorrect 
+2025-01-13 19:36:53 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-13 20:05:00 [ERROR]: CurrentPassword is incorrect 
+2025-01-13 20:16:57 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-25 00:17:05 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: course.thumbnail cannot be null
+2025-01-26 11:42:43 [ERROR]: Uncaught Exception: Socket closed unexpectedly
+2025-01-26 18:09:57 [ERROR]: CurrentPassword is incorrect 
+2025-01-26 18:19:12 [ERROR]: CurrentPassword is incorrect 
+2025-01-26 18:19:50 [ERROR]: CurrentPassword is incorrect 
+2025-01-26 18:19:59 [ERROR]: CurrentPassword is incorrect 
+2025-01-26 18:21:02 [ERROR]: CurrentPassword is incorrect 
+2025-01-26 18:23:12 [ERROR]: CurrentPassword is incorrect 
+2025-01-26 18:25:50 [ERROR]: CurrentPassword is incorrect 
+2025-01-27 22:52:48 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-27 23:00:43 [ERROR]: CurrentPassword is incorrect 
+2025-01-27 23:02:23 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-28 00:17:14 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-31 19:55:28 [ERROR]: CurrentPassword is incorrect 
+2025-02-01 00:57:58 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: pdf.pageCount cannot be null
+2025-02-01 00:58:07 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: pdf.pageCount cannot be null
+2025-02-01 00:58:42 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: pdf.pageCount cannot be null
+2025-02-01 00:58:58 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: pdf.pageCount cannot be null
+2025-02-01 02:19:48 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-03-02 20:49:57 [ERROR]: WHERE parameter "phoneNumber" has invalid "undefined" value
+2025-03-02 20:49:57 [ERROR]: WHERE parameter "phoneNumber" has invalid "undefined" value
+2025-03-02 20:51:19 [ERROR]: WHERE parameter "phoneNumber" has invalid "undefined" value
+2025-03-02 20:51:19 [ERROR]: WHERE parameter "phoneNumber" has invalid "undefined" value
+2025-03-02 20:57:22 [ERROR]: Error Syncing Database: Validation error
+2025-03-17 23:01:12 [ERROR]: Error Syncing Database: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[] NOT NULL, `propertyImages` VARCHAR(255)[], `createdAt` DATETIME NOT NULL, `up' at line 1
+2025-03-17 23:02:44 [ERROR]: Error Syncing Database: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[] NOT NULL, `roomImages` VARCHAR(255)[], `createdAt` DATETIME NOT NULL, `update' at line 1
+2025-03-18 09:10:08 [ERROR]: Internal server error:TypeError: this.build(...).save is not a function
+2025-03-18 09:30:04 [ERROR]: Error Syncing Database: Cannot add or update a child row: a foreign key constraint fails (`huts4u`.`#sql-36b_515b`, CONSTRAINT `hotels_userId_foreign_idx` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+2025-03-18 09:49:08 [ERROR]: Internal server error:SequelizeDatabaseError: Column 'roomImages' cannot be null
+2025-03-18 09:49:28 [ERROR]: Internal server error:SequelizeDatabaseError: Column 'roomImages' cannot be null
+2025-03-18 09:50:19 [ERROR]: Internal server error:SequelizeDatabaseError: Column 'roomImages' cannot be null
+2025-03-18 09:53:53 [ERROR]: Internal server error:SequelizeDatabaseError: Column 'roomImages' cannot be null
+2025-03-18 09:55:24 [ERROR]: Internal server error:SequelizeDatabaseError: Column 'roomImages' cannot be null
+2025-03-18 09:57:00 [ERROR]: Internal server error:SequelizeDatabaseError: Column 'roomImages' cannot be null
+2025-03-18 09:57:41 [ERROR]: Internal server error:SequelizeDatabaseError: Column 'roomImages' cannot be null
+2025-03-18 10:15:45 [ERROR]: Internal server error:SequelizeDatabaseError: Column 'roomImages' cannot be null
+2025-03-18 10:17:46 [ERROR]: Internal server error:SequelizeDatabaseError: Column 'roomImages' cannot be null
+2025-03-19 21:05:55 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-19 21:05:55 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-19 23:35:59 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-19 23:35:59 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-20 08:10:38 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-03-20 08:11:01 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-03-20 08:12:37 [ERROR]: Error Connecting to Database Access denied for user 'root'@'localhost' (using password: YES)
+2025-03-20 08:12:52 [ERROR]: Error Syncing Database: Validation error
+2025-03-20 08:32:16 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-20 08:32:16 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-20 08:37:46 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-20 08:51:01 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-20 08:51:01 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-20 08:57:16 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-20 08:57:16 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-20 09:10:15 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-20 09:10:15 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-20 09:10:46 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-20 09:18:48 [ERROR]: Account not found
+2025-03-21 19:55:07 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect decimal value: '' for column 'rateFor3Hour' at row 1
+2025-03-21 19:55:31 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect decimal value: '' for column 'rateFor3Hour' at row 1
+2025-03-21 19:58:44 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect decimal value: '' for column 'rateFor3Hour' at row 1
+2025-03-21 19:59:58 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect decimal value: '' for column 'rateFor3Hour' at row 1
+2025-03-21 21:03:10 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'hotel.hotelId' in 'where clause'
+2025-03-22 16:35:00 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-22 16:35:00 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-22 16:35:29 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-22 16:35:29 [ERROR]: WHERE parameter "id" has invalid "undefined" value
+2025-03-22 19:26:15 [ERROR]: Error Syncing Database: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'class Sequelize {
+  constructor(database, username, password, options) {
+    let' at line 1
+2025-03-22 19:28:28 [ERROR]: Error Syncing Database: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'class Sequelize {
+  constructor(database, username, password, options) {
+    let' at line 1
+2025-03-23 08:52:43 [ERROR]: CurrentPassword is incorrect 
+2025-03-23 08:52:53 [ERROR]: CurrentPassword is incorrect 
+2025-03-23 08:53:09 [ERROR]: CurrentPassword is incorrect 
+2025-03-23 09:18:49 [ERROR]: Internal server error:SequelizeForeignKeyConstraintError: Cannot delete or update a parent row: a foreign key constraint fails (`huts4u1`.`bookings`, CONSTRAINT `bookings_ibfk_3` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))
+2025-03-23 09:19:01 [ERROR]: Internal server error:SequelizeForeignKeyConstraintError: Cannot delete or update a parent row: a foreign key constraint fails (`huts4u1`.`bookings`, CONSTRAINT `bookings_ibfk_3` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))
+2025-03-23 09:24:27 [ERROR]: Internal server error:SequelizeForeignKeyConstraintError: Cannot delete or update a parent row: a foreign key constraint fails (`huts4u1`.`bookings`, CONSTRAINT `bookings_ibfk_3` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))
+2025-03-23 10:09:08 [ERROR]: connect ETIMEDOUT
+2025-03-23 10:09:10 [ERROR]: getaddrinfo ENOTFOUND livabhi.cruq4wkai2b0.ap-south-1.rds.amazonaws.com
+2025-03-23 10:09:10 [ERROR]: getaddrinfo ENOTFOUND livabhi.cruq4wkai2b0.ap-south-1.rds.amazonaws.com
+2025-03-27 07:39:42 [ERROR]: Internal server error:SequelizeHostNotFoundError: getaddrinfo ENOTFOUND livabhi.cruq4wkai2b0.ap-south-1.rds.amazonaws.com
+2025-03-27 07:39:42 [ERROR]: Internal server error:SequelizeHostNotFoundError: getaddrinfo ENOTFOUND livabhi.cruq4wkai2b0.ap-south-1.rds.amazonaws.com
+2025-03-28 06:42:53 [ERROR]: CurrentPassword is incorrect 
+2025-03-28 07:34:45 [ERROR]: CurrentPassword is incorrect 
+2025-03-28 22:57:31 [ERROR]: Internal server error:SequelizeDatabaseError: read ECONNRESET
+2025-03-28 22:57:34 [ERROR]: Internal server error:SequelizeDatabaseError: read ECONNRESET
+2025-03-29 20:34:35 [ERROR]: Internal server error:SequelizeHostNotFoundError: getaddrinfo ENOTFOUND livabhi.cruq4wkai2b0.ap-south-1.rds.amazonaws.com
+2025-03-29 20:37:48 [ERROR]: CurrentPassword is incorrect 
+2025-03-29 22:34:38 [ERROR]: Error Syncing Database: Invalid default value for 'status'
+2025-03-29 22:35:29 [ERROR]: Error Syncing Database: Data truncated for column 'roomAvailable' at row 1
+2025-03-29 23:21:54 [ERROR]: CurrentPassword is incorrect 
+2025-03-31 03:11:44 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: booking.amountPaid cannot be null
+2025-03-31 03:13:38 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect time value: '03:12 AM' for column 'checkInTime' at row 1
+2025-03-31 03:35:59 [ERROR]: CurrentPassword is incorrect 
+2025-03-31 23:09:23 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect date value: 'Invalid date' for column 'checkInDate' at row 1
+2025-03-31 23:25:47 [ERROR]: Account not found
+2025-04-01 02:41:32 [ERROR]: Error Connecting to Database Access denied for user 'admin'@'103.39.242.124' (using password: YES)
+2025-04-01 02:42:44 [ERROR]: Error Connecting to Database Access denied for user 'admin'@'103.39.242.124' (using password: YES)
+2025-04-01 02:42:57 [ERROR]: Error Connecting to Database Access denied for user 'admin'@'103.39.242.124' (using password: YES)
+2025-04-03 18:50:22 [ERROR]: Account not found
+2025-04-03 19:29:02 [ERROR]: CurrentPassword is incorrect 
+2025-04-26 12:00:18 [ERROR]: CurrentPassword is incorrect 
+2025-04-26 12:00:19 [ERROR]: CurrentPassword is incorrect 
+2025-07-26 19:45:08 [ERROR]: Error Connecting to Database getaddrinfo ENOTFOUND database-1.cvseuugeulzo.ap-south-1.rds.amazonaws.com
+2025-07-26 19:46:53 [ERROR]: Error Connecting to Database getaddrinfo ENOTFOUND database-1.cvseuugeulzo.ap-south-1.rds.amazonaws.com
+2025-07-28 17:02:45 [ERROR]: Error Connecting to Database Access denied for user 'admim'@'103.92.45.165' (using password: YES)
+2025-08-24 23:04:47 [ERROR]: Account not found
+2025-09-25 21:29:39 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-11-11 21:36:18 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-11-11 21:36:43 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-11-27 16:18:44 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-11-28 20:04:20 [ERROR]: CurrentPassword is incorrect 
