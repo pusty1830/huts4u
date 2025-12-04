@@ -51,6 +51,10 @@ const Booking = sequelizeConfig.define(
       type: Sequelize.FLOAT,
       allowNull: false,
     },
+    paymentId: {
+      type: Sequelize.STRING,
+      allowNull: false,
+    },
     // availableRooms: {
     //   type: Sequelize.INTEGER,
     //   allowNull: true,
@@ -76,7 +80,7 @@ const Booking = sequelizeConfig.define(
       allowNull: true,
     },
     status: {
-      type: Sequelize.ENUM("pending", "checkedIn", "checkedOut"),
+      type: Sequelize.ENUM("pending", "checkedIn", "checkedOut", "Cancel"),
       allowNull: false,
       defaultValue: "pending",
     },

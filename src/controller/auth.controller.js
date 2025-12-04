@@ -409,21 +409,36 @@ exports.Signup = async (req, res) => {
   try {
     const body = req.body;
 
+    // ⭐ Store plain password BEFORE hashing
+    const plainPassword = body.password;
+
     // Hash the password
     body.password = await hashPassword(body.password);
 
-    // Save user data directly to the database
+    // Save user
     const result = await User.addData(body);
+    const user = getRawData(result);
 
-    // Prepare and send response
-    const response = prepareResponse(
-      "CREATED",
-      PROFILE_CREATION,
-      getRawData(result),
-      null
+    // ⭐ Send Welcome email with login credentials
+    await sendEmail(
+      body.email,
+      "Welcome to Huts4u – Your Login Credentials",
+      "welcomeCredentials", // <-- EJS template name
+      {
+        name: body.name,
+        email: body.email,
+        password: plainPassword,
+        loginUrl: "https://huts4u.com/login",
+        logoUrl:
+          "https://huts44u.s3.ap-south-1.amazonaws.com/hutlogo-removebg-preview.png",
+      },
+      { embedLogo: true }
     );
 
-    return res.status(httpRes.CREATED).json(response);
+    // Response back to client
+    return res
+      .status(httpRes.CREATED)
+      .json(prepareResponse("CREATED", PROFILE_CREATION, user, null));
   } catch (error) {
     logger.error(error);
     return res

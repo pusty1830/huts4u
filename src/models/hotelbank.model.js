@@ -1,6 +1,7 @@
 const { Sequelize, DataTypes } = require("sequelize");
 const sequelize = require("../config/db.config");
 const Hotel = require("./hotel.model");
+const User = require("./user.model");
 
 const Payout = sequelize.define(
   "payout",
@@ -17,6 +18,15 @@ const Payout = sequelize.define(
       references: { model: Hotel, key: "id" },
       onDelete: "CASCADE",
       onUpdate: "CASCADE",
+    },
+    userId: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      references: { model: User, key: "id" },
+    },
+    paymentId: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
 
     // amounts stored in smallest currency unit (paise)

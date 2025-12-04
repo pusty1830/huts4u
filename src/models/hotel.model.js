@@ -83,7 +83,7 @@ const Hotel = sequelizeConfig.define(
     },
     gstNo: {
       type: Sequelize.STRING(20),
-      allowNull: false,
+      allowNull: true,
     },
     panNo: {
       type: Sequelize.STRING(20),
@@ -91,7 +91,7 @@ const Hotel = sequelizeConfig.define(
     },
     gstCertificateImage: {
       type: Sequelize.STRING(300), // Increased size for URL
-      allowNull: false,
+      allowNull: true,
     },
     bankName: {
       type: Sequelize.STRING(100),

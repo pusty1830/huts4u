@@ -97,3 +97,55 @@ exports.getPayments = async (req, res) => {
       );
   }
 };
+
+exports.cancelPayment = async (req, res) => {
+  try {
+    const { paymentId, amount } = req.body;
+
+    if (!paymentId) {
+      return res
+        .status(400)
+        .json(
+          prepareResponse("BAD_REQUEST", "paymentId is required", null, null)
+        );
+    }
+
+    // build payload for razorpay (amount in paise). If no amount, gateway will do full refund.
+    const refundPayload = {};
+    if (typeof amount !== "undefined" && amount !== null) {
+      // Make sure caller passed paise. If they pass rupees accidentally, they must multiply by 100 on frontend.
+      refundPayload.amount = amount;
+    }
+
+    const refundResponse = await razorpay.payments.refund(
+      paymentId,
+      refundPayload
+    );
+    
+
+    return res
+      .status(200)
+      .json(
+        prepareResponse(
+          "SUCCESS",
+          "Refund processed",
+          { refund: refundResponse },
+          null
+        )
+      );
+  } catch (error) {
+    console.error("Refund Error:", error);
+
+    // Razorpay error shape sometimes in error.error.description
+    const errMsg =
+      error?.error?.description || error?.message || "Refund failed";
+
+    return res
+      .status(500)
+      .json(
+        prepareResponse("SERVER_ERROR", "Refund failed", null, {
+          message: errMsg,
+        })
+      );
+  }
+};

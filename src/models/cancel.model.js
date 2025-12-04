@@ -59,11 +59,15 @@ const Cancel = sequelize.define(
 
     // status of cancellation processing
     status: {
-      type: DataTypes.ENUM("pending", "completed", "refunded", "rejected"),
+      type: DataTypes.ENUM("pending", "refunded", "rejected"),
       allowNull: false,
       defaultValue: "pending",
     },
 
+    refundres: {
+      type: DataTypes.JSON,
+      allowNull: false,
+    },
     // who processed/refunded (admin user id)
     processedBy: {
       type: DataTypes.INTEGER,

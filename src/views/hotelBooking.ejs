@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New Booking – Huts4u</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .card {
+      max-width: 720px;
+      margin: 25px auto;
+      background: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+
+    .top {
+      background: linear-gradient(90deg, #6a0dad, #8a2be2);
+      padding: 22px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      color: #ffffff;
+    }
+
+    .logo {
+      height: 55px;
+      border-radius: 6px;
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    .body {
+      padding: 25px;
+      color: #3a3a4d;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-bottom: 1px solid #eee6ff;
+    }
+
+    .label {
+      font-weight: 600;
+      color: #6a0dad;
+    }
+
+    .value {
+      font-weight: 500;
+      color: #2f2f40;
+      text-align: right;
+    }
+
+    .cta {
+      margin-top: 22px;
+      padding-top: 15px;
+      border-top: 1px solid #eee;
+      color: #4a4a63;
+    }
+
+    .footer {
+      padding: 18px;
+      text-align: center;
+      font-size: 13px;
+      color: #8a8aa8;
+      background: #fbfbff;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="top">
+      <% if (logoUrl) { %>
+        <img src="<%= logoUrl %>" class="logo" alt="Huts4u" />
+      <% } else { %>
+        <div style="font-weight:700; font-size:20px;">Huts4u</div>
+      <% } %>
+
+      <div class="title">New Booking Received</div>
+    </div>
+
+    <div class="body">
+      <p>Hi <b><%= hotelName || 'Team' %></b>,</p>
+
+      <p>You have received a new booking from the Huts4u platform. Below are the complete details:</p>
+
+      <div class="row">
+        <div class="label">Guest Name</div>
+        <div class="value"><%= guestName %></div>
+      </div>
+
+      <div class="row">
+        <div class="label">Guest Phone</div>
+        <div class="value"><%= guestPhone %></div>
+      </div>
+
+      <div class="row">
+        <div class="label">Property</div>
+        <div class="value"><%= propertyName %></div>
+      </div>
+
+      <div class="row">
+        <div class="label">Check In</div>
+        <div class="value"><%= checkInDate %> — <%= checkInTime %></div>
+      </div>
+
+      <div class="row">
+        <div class="label">Check Out</div>
+        <div class="value"><%= checkOutDate %> — <%= checkOutTime %></div>
+      </div>
+
+      <div class="row">
+        <div class="label">Rooms / Guests</div>
+        <div class="value"><%= rooms %> room(s) • <%= adults %> adults • <%= children %> children</div>
+      </div>
+
+      <div class="row">
+        <div class="label">Amount Paid</div>
+        <div class="value">₹<%= amountPaid %></div>
+      </div>
+
+      <% if (notes) { %>
+        <div style="padding-top:16px;">
+          <strong style="color:#6a0dad;">Guest Notes:</strong>
+          <div style="margin-top: 6px; color:#4a4a63;"><%= notes %></div>
+        </div>
+      <% } %>
+
+      <div class="cta">
+        <p>Please confirm the booking from your Huts4u hotel dashboard or reply to this email for any assistance.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      © <%= new Date().getFullYear() %> Huts4u — Please keep guest information confidential.
+    </div>
+  </div>
+</body>
+</html>

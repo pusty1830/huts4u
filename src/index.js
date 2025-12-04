@@ -5,14 +5,14 @@ const cors = require("cors");
 require("dotenv").config();
 const sequilize = require("./config/db.config");
 const path = require("path");
-const {startPayoutCron}=require('./utils/corn')
+// const { runPayoutCron } = require("./utils/corn");
 
 //middleware
 app.use(cors());
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb", extended: false }));
 
-startPayoutCron();
+// runPayoutCron();
 
 app.use((req, res, next) => {
   res.setHeader(
@@ -36,15 +36,15 @@ sequilize
   .authenticate()
   .then(() => {
     logger.info("Database Connected Successfully");
-    sequilize
-      .sync({ force: false, alter: true }) //its doing the table sync and
-      .then(() => {
-        logger.info("Database Synced Successfully");
-      })
-      .catch((syncErr) => {
-        logger.error("Error Syncing Database: " + syncErr.message);
-        process.exit(1);
-      });
+    // sequilize
+    //   .sync({ force: false, alter: true }) //its doing the table sync and
+    //   .then(() => {
+    //     logger.info("Database Synced Successfully");
+    //   })
+    //   .catch((syncErr) => {
+    //     logger.error("Error Syncing Database: " + syncErr.message);
+    //     process.exit(1);
+    //   });
   })
   .catch((err) => {
     logger.error("Error Connecting to Database", err);

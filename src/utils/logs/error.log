@@ -386,3 +386,106 @@ notNull Violation: payment.amount cannot be null
 2025-11-11 21:36:43 [ERROR]: Error Connecting to Database connect ETIMEDOUT
 2025-11-27 16:18:44 [ERROR]: Error Connecting to Database connect ETIMEDOUT
 2025-11-28 20:04:20 [ERROR]: CurrentPassword is incorrect 
+2025-11-30 00:12:00 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-11-30 00:12:13 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-11-30 00:12:30 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-11-30 00:12:43 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-11-30 00:13:04 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-11-30 00:13:08 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-11-30 00:13:17 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-11-30 00:20:57 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-11-30 00:22:20 [ERROR]: Error Syncing Database: Key column 'scheduledAt' doesn't exist in table
+2025-11-30 18:11:23 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: rating.userId cannot be null,
+notNull Violation: rating.hotelId cannot be null,
+notNull Violation: rating.bookingId cannot be null,
+notNull Violation: rating.rating cannot be null
+2025-11-30 18:11:24 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: rating.userId cannot be null,
+notNull Violation: rating.hotelId cannot be null,
+notNull Violation: rating.bookingId cannot be null,
+notNull Violation: rating.rating cannot be null
+2025-12-01 01:00:09 [ERROR]: plainPassword is not defined
+2025-12-01 01:03:14 [ERROR]: ENOENT: no such file or directory, open 'C:\Users\amita\Desktop\Huts4u\huts4u_server\src\assets\logo.png'
+2025-12-03 19:59:58 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:21:46 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:21:46 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:30:55 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:30:55 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:31:05 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:31:05 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:48:22 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:48:22 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:52:35 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:52:35 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:53:46 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:53:46 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:55:43 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:55:43 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:58:39 [ERROR]: connect ETIMEDOUT
+2025-12-03 20:58:39 [ERROR]: connect ETIMEDOUT
+2025-12-03 23:31:36 [ERROR]: connect ETIMEDOUT
+2025-12-03 23:31:36 [ERROR]: connect ETIMEDOUT
+2025-12-03 23:31:46 [ERROR]: connect ETIMEDOUT
+2025-12-03 23:31:56 [ERROR]: connect ETIMEDOUT
+2025-12-03 23:33:03 [ERROR]: connect ETIMEDOUT
+2025-12-03 23:41:36 [ERROR]: Unhandled Rejection: TypeError: payoutService.processDuePayouts is not a function
+2025-12-03 23:41:46 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-03 23:59:31 [ERROR]: connect ETIMEDOUT
+2025-12-04 00:08:20 [ERROR]: Internal server error:SequelizeConnectionError: connect ETIMEDOUT
+2025-12-04 00:08:20 [ERROR]: Internal server error:SequelizeConnectionError: connect ETIMEDOUT
+2025-12-04 00:42:56 [ERROR]: connect ETIMEDOUT
+2025-12-04 00:42:56 [ERROR]: connect ETIMEDOUT
+2025-12-04 00:43:00 [ERROR]: connect ETIMEDOUT
+2025-12-04 00:43:00 [ERROR]: connect ETIMEDOUT
+2025-12-04 00:43:00 [ERROR]: connect ETIMEDOUT
+2025-12-04 00:43:06 [ERROR]: connect ETIMEDOUT
+2025-12-04 00:43:06 [ERROR]: Internal server error:SequelizeConnectionError: connect ETIMEDOUT
+2025-12-04 01:03:32 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 01:07:56 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 01:08:42 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 01:10:58 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 01:18:12 [ERROR]: Internal server error:SequelizeConnectionError: connect ETIMEDOUT
+2025-12-04 01:18:22 [ERROR]: connect ETIMEDOUT
+2025-12-04 01:20:09 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: mypayment.paymentId cannot be null
+2025-12-04 01:20:09 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: payout.paymentId cannot be null
+2025-12-04 01:22:58 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: booking.paymentId cannot be null
+2025-12-04 01:25:12 [ERROR]: Error Syncing Database: Cannot add or update a child row: a foreign key constraint fails (`huts4u`.`#sql-3cc_9054`, CONSTRAINT `payouts_userId_foreign_idx` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+2025-12-04 01:25:55 [ERROR]: Error Syncing Database: Cannot add or update a child row: a foreign key constraint fails (`huts4u`.`#sql-3cc_9056`, CONSTRAINT `payouts_userId_foreign_idx` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))
+2025-12-04 01:34:30 [ERROR]: connect ETIMEDOUT 142.251.12.109:465
+2025-12-04 01:44:08 [ERROR]: Internal server error:SequelizeConnectionError: connect ETIMEDOUT
+2025-12-04 01:50:11 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: booking.paymentId cannot be null
+2025-12-04 01:56:47 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: booking.paymentId cannot be null
+2025-12-04 02:05:05 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:05:05 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:05:05 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:05:05 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:06:59 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: booking.paymentId cannot be null
+2025-12-04 02:08:09 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:08:09 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:14:13 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 02:15:13 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 02:22:24 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 02:35:59 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:35:59 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:35:59 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:35:59 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:37:50 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:37:50 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:37:51 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:37:51 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:38:46 [ERROR]: connect ETIMEDOUT
+2025-12-04 02:38:46 [ERROR]: connect ETIMEDOUT
+2025-12-04 03:02:08 [ERROR]: connect ETIMEDOUT 142.251.10.108:465
+2025-12-04 03:18:32 [ERROR]: connect ETIMEDOUT
+2025-12-04 07:29:48 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 09:46:23 [ERROR]: connect ETIMEDOUT 74.125.130.109:465
+2025-12-04 09:48:32 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 09:49:13 [ERROR]: connect ETIMEDOUT 74.125.130.109:587
+2025-12-04 09:55:23 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 09:56:01 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 09:56:25 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 09:57:14 [ERROR]: connect ETIMEDOUT 142.251.12.108:587
+2025-12-04 09:57:43 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 10:00:10 [ERROR]: connect ETIMEDOUT 142.251.10.108:587
+2025-12-04 10:08:37 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-12-04 10:09:22 [ERROR]: Connection timeout
+2025-12-04 10:14:18 [ERROR]: Connection timeout
