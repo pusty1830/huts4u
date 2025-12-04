@@ -489,3 +489,19 @@ notNull Violation: rating.rating cannot be null
 2025-12-04 10:08:37 [ERROR]: Error Connecting to Database connect ETIMEDOUT
 2025-12-04 10:09:22 [ERROR]: Connection timeout
 2025-12-04 10:14:18 [ERROR]: Connection timeout
+2025-12-04 19:08:16 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: cancel.refundres cannot be null
+2025-12-04 19:08:17 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: cancel.refundres cannot be null
+2025-12-04 19:08:40 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: cancel.refundres cannot be null
+2025-12-04 19:09:01 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: cancel.refundres cannot be null
+2025-12-04 21:24:08 [ERROR]: getaddrinfo ENOTFOUND database-1.cxy6gw4w2eze.ap-south-1.rds.amazonaws.com
+2025-12-05 00:24:11 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: cancel.refundres cannot be null
+2025-12-05 00:25:46 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: cancel.refundres cannot be null
+2025-12-05 00:26:21 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'refundres' in 'field list'
+2025-12-05 00:27:29 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'refundres' in 'field list'
+2025-12-05 00:28:07 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'refundres' in 'field list'
+2025-12-05 00:29:08 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'refundres' in 'field list'
+2025-12-05 00:47:04 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'bookingId' in 'field list'
+2025-12-05 00:47:04 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'bookingId' in 'field list'
+2025-12-05 00:48:03 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-12-05 00:48:43 [ERROR]: Error Syncing Database: Cannot add or update a child row: a foreign key constraint fails (`huts4u`.`#sql-3cc_96af`, CONSTRAINT `payouts_bookingId_foreign_idx` FOREIGN KEY (`bookingId`) REFERENCES `bookings` (`id`))
+2025-12-05 00:49:49 [ERROR]: Error Syncing Database: Cannot add or update a child row: a foreign key constraint fails (`huts4u`.`#sql-3cc_96b1`, CONSTRAINT `cancels_ibfk_24` FOREIGN KEY (`bookingId`) REFERENCES `bookings` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)

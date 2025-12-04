@@ -2,6 +2,7 @@ const { Sequelize, DataTypes } = require("sequelize");
 const sequelize = require("../config/db.config");
 const Hotel = require("./hotel.model");
 const User = require("./user.model");
+const Booking = require("./bookings");
 
 const Payout = sequelize.define(
   "payout",
@@ -23,6 +24,11 @@ const Payout = sequelize.define(
       type: DataTypes.INTEGER,
       allowNull: false,
       references: { model: User, key: "id" },
+    },
+    bookingId: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      references: { model: Booking, key: "id" },
     },
     paymentId: {
       type: DataTypes.STRING,
